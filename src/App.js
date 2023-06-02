@@ -6,6 +6,9 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Footer from './components/Footer';
+// import Home from './pages/Home';
+
 
 
 function App() {
@@ -14,6 +17,7 @@ function App() {
       <Router>
      <Nav/>
         <Routes>
+          {/* <Route path='/' element= {<Home/>}/> */}
           <Route path='/' element= {<About/>}/>
           <Route path='/portfolio' element= {<Portfolio/>}/>
           <Route path='/contact' element= {<Contact/>}/>
@@ -21,8 +25,10 @@ function App() {
 
 
         </Routes>
-
+        
+        <Footer/>
       </Router>
+
     </div>
   );
 }

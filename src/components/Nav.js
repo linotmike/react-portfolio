@@ -1,24 +1,33 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Link}from 'react-router-dom'
+import {NavLink as Link}from 'react-router-dom'
+// import { Button } from 'react-bootstrap';
 
 export default function Nav() {
     return (
 
-       <nav>
+       <nav className='nav-main'>
+        
         <div>
-            <h2>Birhan </h2>
+            <h2 style={{color:'white'}}>Birhan
 
-        </div>
-        <div>
-            <ul>
-                <li><Link to={{pathname:"/"}}>About </Link></li>
-                <li><Link to={{pathname:"/portfolio"}}>portfolio </Link></li>
-                <li><Link to={{pathname:"/contact"}}>contact </Link></li>
-                <li><Link to={{pathname:"/resume"}}>resume </Link></li>
+            </h2>
+            <ul style={{color:'black'}} className='nav-bar'>
+                {/* <li className='link' ><Link to={{pathname:"/"}} activeClassName="active">Home </Link></li> */}
+                <li className='link' ><Link to={{pathname:"/"}}activeClassName="active">About </Link></li>
+                <li className='link' ><Link to={{pathname:"/portfolio"}}activeClassName="active">portfolio </Link></li>
+                <li className='link' ><Link to={{pathname:"/contact"}}activeClassName="active">contact </Link></li>
+                <li className='link' ><Link to={{pathname:"/resume"}}activeClassName="active">resume </Link></li>
+             
                 
             </ul>
+            {/* <div>
+            <h2 style={{color:'white'}}>Birhan </h2>
+
+        </div> */}
         </div>
+        <br/>
+       
        </nav>
     )
 

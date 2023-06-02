@@ -11,32 +11,42 @@ export default function Contact() {
   }
   function inputHandler(e) {
     console.log(e.target.name, e.target.value);
-    setFormData ({...formData,[e.target.name]:e.target.value})
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   }
   return (
-    <section>
-      Contact
-      <div>
+    <section className="form">
+      
+       contact
+        <input 
+        style={{borderRadius:'25px'}}
+        type="text"
+        name="name"
+        placeholder="name"
+        onChange={inputHandler}
+      ></input>
+       
+        
         <input
+        style={{borderRadius:'25px'}}
           type="text"
           placeholder="email"
           name="email"
           id="input-email"
           onChange={inputHandler}
         ></input>
-        <input
-          type="text"
-          name="name"
-          placeholder="name"
-          onChange={inputHandler}
-        ></input>
-        <textarea
-          name="message"
-          placeholder="textarea"
-          onChange={inputHandler}
-        ></textarea>
-        <button onClick={submitHandler}>submit</button>
-      </div>
-    </section>
+        
+
+
+          <textarea
+          style={{borderRadius:'25px'}}
+          className="text"
+            name="message"
+            placeholder=" textarea"
+            onChange={inputHandler}
+          ></textarea>
+          <button className="submit-btn" onClick={submitHandler}>submit</button>
+          </section>
+          
+      
   );
 }
