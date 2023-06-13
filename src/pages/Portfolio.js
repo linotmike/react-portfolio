@@ -30,6 +30,10 @@ export default function Portfolio (){
   <a style={{display: 'inline-grid'}} href="https://github.com/linotmike/Social-network-api">social-network-api</a>
   <p style={{fontSize:'20px'}}>Back-end</p>
 </div>
+<div class="project6"style={{color:'aliceblue'}} >
+  <a style={{display: 'inline-grid'}} href="https://proj-portal.netlify.app/">Project Portal</a>
+  <p style={{fontSize:'20px'}}>full-stack</p>
+</div>
 </div>
 
         </div>

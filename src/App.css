@@ -227,9 +227,22 @@ path {
   /* text-decoration: underline; */
   /* font-size: 60px; */
 }
+.project6{
+  background-image: url(./assets/project-portal.png);
+  background-size: cover;
+  background-position: center;
+  color: black !important;
+  /* color: aliceblue; */
+  border: 2px solid black;
+  border-radius: 25px;
+  height: 4ovh;
+  width: 500px
+  /* text-decoration: underline; */
+  /* font-size: 60px; */
+}
 a{
   
-  background-image: linear-gradient( to right, #54b3d6, #54b3d6 50%, aliceblue 50% );
+  background-image: linear-gradient( to right, #54b3d6, #54b3d6 50%, rgb(20, 22, 24) 50% );
   background-size: 200% 100%;
   background-position: -100%;
   -webkit-background-clip: text;
