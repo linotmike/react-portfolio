@@ -12,7 +12,7 @@ export default function Nav() {
             <h2 style={{color:'white'}}>Birhan
 
             </h2>
-            <ul style={{color:'black'}} className='nav-bar'>
+            <ul  className='nav-bar'>
                 {/* <li className='link' ><Link to={{pathname:"/"}} activeClassName="active">Home </Link></li> */}
                 <li className='link' ><Link to={{pathname:"/"}}activeClassName="active">About </Link></li>
                 <li className='link' ><Link to={{pathname:"/portfolio"}}activeClassName="active">portfolio </Link></li>
