@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/linotmike.github.io/react-portfolio/static/css/main.68f84d31.css",
-    "main.js": "/linotmike.github.io/react-portfolio/static/js/main.8b2ebdbe.js",
-    "static/media/project-portal.png": "/linotmike.github.io/react-portfolio/static/media/project-portal.a62b4e3200fcb14b9de6.png",
-    "static/media/social.png": "/linotmike.github.io/react-portfolio/static/media/social.824f0d3ada3913462115.png",
-    "static/media/ecommerce.png": "/linotmike.github.io/react-portfolio/static/media/ecommerce.49fee18da2233bc57ac7.png",
-    "static/media/tech.png": "/linotmike.github.io/react-portfolio/static/media/tech.40ab7d3fc149fe256040.png",
-    "static/media/CSS-Animated-Backgrounds-2.gif": "/linotmike.github.io/react-portfolio/static/media/CSS-Animated-Backgrounds-2.bc2e10d52ee5517afa07.gif",
-    "static/media/lino.JPG": "/linotmike.github.io/react-portfolio/static/media/lino.3c855218035fbc550179.JPG",
-    "static/media/note.png": "/linotmike.github.io/react-portfolio/static/media/note.331e83584c977c06f3f3.png",
-    "static/media/temple.png": "/linotmike.github.io/react-portfolio/static/media/temple.c1a5e62da3abb5673f46.png",
-    "index.html": "/linotmike.github.io/react-portfolio/index.html",
-    "main.68f84d31.css.map": "/linotmike.github.io/react-portfolio/static/css/main.68f84d31.css.map",
-    "main.8b2ebdbe.js.map": "/linotmike.github.io/react-portfolio/static/js/main.8b2ebdbe.js.map"
+    "main.css": "/react-portfolio/static/css/main.2cc59f2a.css",
+    "main.js": "/react-portfolio/static/js/main.8b2ebdbe.js",
+    "static/media/project-portal.png": "/react-portfolio/static/media/project-portal.a62b4e3200fcb14b9de6.png",
+    "static/media/social.png": "/react-portfolio/static/media/social.824f0d3ada3913462115.png",
+    "static/media/ecommerce.png": "/react-portfolio/static/media/ecommerce.49fee18da2233bc57ac7.png",
+    "static/media/tech.png": "/react-portfolio/static/media/tech.40ab7d3fc149fe256040.png",
+    "static/media/CSS-Animated-Backgrounds-2.gif": "/react-portfolio/static/media/CSS-Animated-Backgrounds-2.bc2e10d52ee5517afa07.gif",
+    "static/media/lino.JPG": "/react-portfolio/static/media/lino.3c855218035fbc550179.JPG",
+    "static/media/note.png": "/react-portfolio/static/media/note.331e83584c977c06f3f3.png",
+    "static/media/temple.png": "/react-portfolio/static/media/temple.c1a5e62da3abb5673f46.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.2cc59f2a.css.map": "/react-portfolio/static/css/main.2cc59f2a.css.map",
+    "main.8b2ebdbe.js.map": "/react-portfolio/static/js/main.8b2ebdbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.68f84d31.css",
+    "static/css/main.2cc59f2a.css",
     "static/js/main.8b2ebdbe.js"
   ]
 }
