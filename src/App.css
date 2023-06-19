@@ -19,7 +19,8 @@
  justify-content: end;
  gap: 30px;
  font-size: 30px;
- margin-right: 70px;
+ /* margin-right: 70px; */
+ flex-grow: 1;
  
 
 }
@@ -151,7 +152,9 @@ path {
   padding: 20px 0;
   align-content: end;
   grid-template-columns: auto auto auto;
-  margin-left: 12%;
+  /* margin-left: 12%; */
+  display: flex;
+  justify-content: center;
   
   
   
@@ -161,9 +164,10 @@ path {
   /* background-size: cover;
   background-position: center; */
   color: aliceblue;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 25px;
-  height: 4ovh;
+  /* height: 35vh; */
+  width: 1000px;
   /* text-decoration: underline; */
   /* font-size: 60px; */
 }
@@ -172,10 +176,10 @@ path {
   background-size: cover;
   background-position: center;
   color: aliceblue;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 25px;
-  height: 4ovh;
-  width: 330px
+  /* height: 35vh; */
+  width: 500px
   /* text-decoration: underline; */
   /* font-size: 60px; */
 }
@@ -184,9 +188,9 @@ path {
   background-size: cover;
   background-position: center;
   color: aliceblue;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 25px;
-  height: 4ovh;
+  /* height: 35vh; */
   width: 500px
   /* text-decoration: underline; */
   /* font-size: 60px; */
@@ -196,9 +200,9 @@ path {
   background-size: cover;
   background-position: center;
   color: aliceblue;
-  border: 2px solid black;
+  /* border: 2px solid; */
   border-radius: 25px;
-  height: 4ovh;
+  /* height: 35vh; */
   width: 500px
   /* text-decoration: underline; */
   /* font-size: 60px; */
@@ -208,9 +212,9 @@ path {
   background-size: cover;
   background-position: center;
   color: aliceblue;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 25px;
-  height: 4ovh;
+  /* height: 35vh; */
   width: 500px
   /* text-decoration: underline; */
   /* font-size: 60px; */
@@ -220,9 +224,9 @@ path {
   background-size: cover;
   background-position: center;
   color: aliceblue;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 25px;
-  height: 4ovh;
+  /* height: 35vh; */
   width: 500px
   /* text-decoration: underline; */
   /* font-size: 60px; */
@@ -233,9 +237,9 @@ path {
   background-position: center;
   color: black !important;
   /* color: aliceblue; */
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 25px;
-  height: 4ovh;
+  /* height: 35vh; */
   width: 500px
   /* text-decoration: underline; */
   /* font-size: 60px; */
@@ -268,4 +272,11 @@ a:hover::before{
 }
 .resume{
   color: white;
+}
+.nav-style{
+  display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0px 50px;
 }

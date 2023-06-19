@@ -5,7 +5,7 @@ export default function Resume (){
         <section className='resume'>
             <h1>Resume</h1>
             <hr/>
-            <h2>Front end proficeinces:</h2>
+            <h2 className='col-12 d-flex'>Front end proficeinces:</h2>
             <ul>
                 <li>Html</li>
                 <li>Css</li>

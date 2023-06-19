@@ -9,7 +9,7 @@ export default function Portfolio (){
   <a style={{display: 'inline-grid'}} href="https://trafficquiz.herokuapp.com/">What not to do at a stop light</a>
   <p style={{fontSize:'20px', color:'aliceblue'}} >Full stack app</p>
 </div>
-<br/>
+
 
 <div class="project1"style={{color:'aliceblue'}} >
   <a style={{display: 'inline-grid', color:'black'}} href="https://notetakerlino.herokuapp.com/">Note taker</a>

@@ -4,14 +4,16 @@ import {NavLink as Link}from 'react-router-dom'
 // import { Button } from 'react-bootstrap';
 
 export default function Nav() {
+    
     return (
 
        <nav className='nav-main'>
         
-        <div>
+        <div className='nav-style'>
             <h2 style={{color:'white'}}>Birhan
 
             </h2>
+            
             <ul  className='nav-bar'>
                 {/* <li className='link' ><Link to={{pathname:"/"}} activeClassName="active">Home </Link></li> */}
                 <li className='link' ><Link to={{pathname:"/"}}activeClassName="active">About </Link></li>
@@ -21,10 +23,9 @@ export default function Nav() {
              
                 
             </ul>
-            {/* <div>
-            <h2 style={{color:'white'}}>Birhan </h2>
-
-        </div> */}
+            
+          
+         
         </div>
         <br/>
        
