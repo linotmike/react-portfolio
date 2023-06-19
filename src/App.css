@@ -196,6 +196,7 @@ path {
   /* font-size: 60px; */
 }
 .project2{
+ 
   background-image: url(./assets/tech.png);
   background-size: cover;
   background-position: center;
@@ -204,8 +205,10 @@ path {
   border-radius: 25px;
   /* height: 35vh; */
   width: 500px
+  
   /* text-decoration: underline; */
   /* font-size: 60px; */
+  
 }
 .project4{
   background-image: url(./assets/ecommerce.png);

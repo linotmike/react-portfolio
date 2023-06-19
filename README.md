@@ -8,6 +8,7 @@
     
 ## Screenshot
 ![screenshot](./src/assets/app.png)
+![screenshot](./src/assets/screen2.png)
 
 ## Table of Contents
 * [Installation](#installation)
