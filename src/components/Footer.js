@@ -24,7 +24,7 @@ export default function Footer() {
           </a>
         </li>
         <li>
-          <a href="http://www.linkedin.com/in/birhanu-mengistu-">
+          <a href="http://linkedin.com/in/linobirhan-mengistu-">
             <svg
               stroke="currentColor"
               fill="currentColor"
