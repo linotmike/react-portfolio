@@ -14,42 +14,18 @@ export default function About() {
 
             <div className="desc">
               {" "}
-              <ul>
-                <li> My name is Birhanu Mengistu i am a software engineer. </li>
-                <li>
-                  {" "}
-                  I Specialize in Application development, software
-                  architecture, and product innovation Skilled in full-stack
-                  software development.
-                </li>
-                <li>
-                  I design layouts for applications, creating and maintaining
-                  database designs, and troubleshooting.
-                </li>
-                <li>
-                  {" "}
-                  Information technology professional specializing in the
-                  development and launch of innovative Web-based solutions that
-                  best suit user needs.
-                </li>
-                <li>
-                  {" "}
-                  Well-versed in all facets of the software development
-                  lifecycle (SDLC), including requirements gathering, coding and
-                  deployment.
-                </li>
-                <li>
-                  {" "}
-                  Expertise in identifying and resolving technical issues during
-                  software development, as well as providing post launch
-                  technical support.
-                </li>
-                <li>
-                  skilled in collaborating with cross-functional teams to
-                  establish project objectives and create deliverables that can
-                  be produced within strict budget and time parameters.
-                </li>{" "}
-              </ul>
+               My name is Birhanu Mengistu i am a software engineer specializing in
+              application development, software architecture, and product
+              innovation. With expertise in full-stack software development, I
+              excel in designing layouts for applications, creating and
+              maintaining database designs, and troubleshooting. As an
+              information technology professional, I am well-versed in the
+              entire software development lifecycle (SDLC), from requirements
+              gathering to coding and deployment. Expertise in identifying and resolving technical issues during software
+              development and provide post-launch technical support. Skilled in
+              collaborating effectively with cross-functional teams to establish
+              project objectives and deliverables within strict budget and time
+              constraints.{" "}
             </div>
           </div>
         </div>
